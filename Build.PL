@@ -1,0 +1,46 @@
+use lib "./buildlib";
+
+use Test::Run::Builder;
+
+use strict;
+use warnings;
+
+my $build = Test::Run::Builder->new(
+    module_name => "Test::WWW::Mechanize::Mojo",
+    test_requires =>
+    {
+        'Test::Exception'=> '0',
+        'Test::More' => '0',
+        'Test::Mojo' => 0,
+    },
+    requires => 
+    {
+        'base' => 0,
+        'Carp' => 0,
+        'Encode' => 0,
+        'HTML::Entities'                           => 0,
+        'LWP'                                      => '5.816',
+        'Mojolicious::Lite' => 0,
+        'strict' => 0,
+        'Test::WWW::Mechanize'                     => '1.14',
+        'warnings' => 0,
+        'WWW::Mechanize'                           => '1.50',
+    },
+    dist_version_from => "lib/Test/WWW/Mechanize/Mojo.pm",
+    license => "perl",
+    create_makefile_pl => 'traditional',
+    meta_merge =>
+    {
+        resources =>
+        {
+            repository => "http://svn.berlios.de/svnroot/repos/web-cpan/Test-WWW-Mechanize-Mojo",
+            homepage => "http://web-cpan.berlios.de/modules/Test-WWW-Mechanize-Mojo/",
+        },
+        keywords =>
+        [
+        ],
+    },
+
+);
+
+$build->create_build_script;
