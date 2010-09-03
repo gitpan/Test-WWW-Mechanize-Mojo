@@ -15,7 +15,7 @@ name: Test-WWW-Mechanize-Mojo
 provides:
   Test::WWW::Mechanize::Mojo:
     file: lib/Test/WWW/Mechanize/Mojo.pm
-    version: v0.0.5
+    version: v0.0.6
 requires:
   Carp: 0
   Encode: 0
@@ -26,9 +26,10 @@ requires:
   WWW::Mechanize: 1.50
   base: 0
   strict: 0
+  utf8: 0
   warnings: 0
 resources:
   homepage: http://web-cpan.berlios.de/modules/Test-WWW-Mechanize-Mojo/
   license: http://dev.perl.org/licenses/
   repository: http://svn.berlios.de/svnroot/repos/web-cpan/Test-WWW-Mechanize-Mojo
-version: v0.0.5
+version: v0.0.6
