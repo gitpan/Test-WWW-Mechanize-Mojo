@@ -11,7 +11,7 @@ use base 'Test::WWW::Mechanize';
 
 use Test::Mojo;
 
-our $VERSION = '0.0.8';
+our $VERSION = '0.0.9';
 
 our $APP_CLASS;
 my $Test = Test::Builder->new();
@@ -224,7 +224,7 @@ sub _do_mojo_request {
     my $t = $self->tester;
   
     # Client
-    my $client = $t->client;
+    my $client = $t->ua;
     $client->app($t->app);
     $client->max_redirects($t->max_redirects);
 
