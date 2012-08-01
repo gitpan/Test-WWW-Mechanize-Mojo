@@ -1,11 +1,10 @@
 {
    "abstract" : "Test::WWW::Mechanize for Mojo / Mojolicious",
    "author" : [
-      "Ash Berlin C<< <ash@cpan.org> >>",
-      "Original Author: Leon Brocard, C<< <acme@astray.com> >>"
+      "unknown"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.120630",
+   "generated_by" : "Module::Build version 0.3901, CPAN::Meta::Converter version 2.120921",
    "keywords" : [],
    "license" : [
       "perl_5"
@@ -41,7 +40,7 @@
    "provides" : {
       "Test::WWW::Mechanize::Mojo" : {
          "file" : "lib/Test/WWW/Mechanize/Mojo.pm",
-         "version" : "v0.0.10"
+         "version" : "v0.0.11"
       }
    },
    "release_status" : "stable",
@@ -54,5 +53,5 @@
          "url" : "http://svn.berlios.de/svnroot/repos/web-cpan/Test-WWW-Mechanize-Mojo"
       }
    },
-   "version" : "v0.0.10"
+   "version" : "v0.0.11"
 }
