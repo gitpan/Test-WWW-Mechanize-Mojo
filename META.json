@@ -40,7 +40,7 @@
    "provides" : {
       "Test::WWW::Mechanize::Mojo" : {
          "file" : "lib/Test/WWW/Mechanize/Mojo.pm",
-         "version" : "v0.0.11"
+         "version" : "v0.0.12"
       }
    },
    "release_status" : "stable",
@@ -50,8 +50,8 @@
          "http://dev.perl.org/licenses/"
       ],
       "repository" : {
-         "url" : "http://svn.berlios.de/svnroot/repos/web-cpan/Test-WWW-Mechanize-Mojo"
+         "url" : "http://bitbucket.org/shlomif/perl-test-www-mechanize-mojo"
       }
    },
-   "version" : "v0.0.11"
+   "version" : "v0.0.12"
 }
