@@ -4,7 +4,7 @@
       "unknown"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.3901, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.4005, CPAN::Meta::Converter version 2.120921",
    "keywords" : [],
    "license" : [
       "perl_5"
@@ -26,7 +26,7 @@
             "Encode" : "0",
             "HTML::Entities" : "0",
             "LWP" : "5.816",
-            "Mojolicious" : "1.01",
+            "Mojolicious" : "4.07",
             "Mojolicious::Lite" : "0",
             "Test::WWW::Mechanize" : "1.14",
             "WWW::Mechanize" : "1.50",
@@ -40,7 +40,7 @@
    "provides" : {
       "Test::WWW::Mechanize::Mojo" : {
          "file" : "lib/Test/WWW/Mechanize/Mojo.pm",
-         "version" : "v0.0.12"
+         "version" : "v0.0.13"
       }
    },
    "release_status" : "stable",
@@ -53,5 +53,10 @@
          "url" : "http://bitbucket.org/shlomif/perl-test-www-mechanize-mojo"
       }
    },
-   "version" : "v0.0.12"
+   "version" : "v0.0.13",
+   "x_test_requires" : {
+      "Test::Exception" : "0",
+      "Test::Mojo" : "0",
+      "Test::More" : "0"
+   }
 }
