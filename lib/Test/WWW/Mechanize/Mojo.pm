@@ -3,6 +3,8 @@ package Test::WWW::Mechanize::Mojo;
 use strict;
 use warnings;
 
+use 5.012;
+
 use Carp qw/croak/;
 use Encode qw();
 use HTML::Entities;
@@ -11,7 +13,7 @@ use base 'Test::WWW::Mechanize';
 
 use Test::Mojo;
 
-our $VERSION = '0.0.14';
+our $VERSION = '0.0.15';
 
 our $APP_CLASS;
 my $Test = Test::Builder->new();
@@ -608,3 +610,4 @@ Copyright (C) 2005-8, Leon Brocard
 This module is free software; you can redistribute it or modify it
 under the same terms as Perl itself.
 
+=cut

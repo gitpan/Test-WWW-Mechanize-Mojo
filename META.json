@@ -31,6 +31,7 @@
             "Test::WWW::Mechanize" : "1.14",
             "WWW::Mechanize" : "1.50",
             "base" : "0",
+            "perl" : "5.012",
             "strict" : "0",
             "utf8" : "0",
             "warnings" : "0"
@@ -40,7 +41,7 @@
    "provides" : {
       "Test::WWW::Mechanize::Mojo" : {
          "file" : "lib/Test/WWW/Mechanize/Mojo.pm",
-         "version" : "v0.0.14"
+         "version" : "v0.0.15"
       }
    },
    "release_status" : "stable",
@@ -53,7 +54,7 @@
          "url" : "http://bitbucket.org/shlomif/perl-test-www-mechanize-mojo"
       }
    },
-   "version" : "v0.0.14",
+   "version" : "v0.0.15",
    "x_test_requires" : {
       "Test::Exception" : "0",
       "Test::Mojo" : "0",
