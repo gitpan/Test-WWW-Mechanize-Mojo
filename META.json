@@ -26,7 +26,7 @@
             "Encode" : "0",
             "HTML::Entities" : "0",
             "LWP" : "5.816",
-            "Mojolicious" : "4.07",
+            "Mojolicious" : "4.75",
             "Mojolicious::Lite" : "0",
             "Test::WWW::Mechanize" : "1.14",
             "WWW::Mechanize" : "1.50",
@@ -41,7 +41,7 @@
    "provides" : {
       "Test::WWW::Mechanize::Mojo" : {
          "file" : "lib/Test/WWW/Mechanize/Mojo.pm",
-         "version" : "v0.0.15"
+         "version" : "v0.0.16"
       }
    },
    "release_status" : "stable",
@@ -54,7 +54,7 @@
          "url" : "http://bitbucket.org/shlomif/perl-test-www-mechanize-mojo"
       }
    },
-   "version" : "v0.0.15",
+   "version" : "v0.0.16",
    "x_test_requires" : {
       "Test::Exception" : "0",
       "Test::Mojo" : "0",

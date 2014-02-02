@@ -13,7 +13,7 @@ use base 'Test::WWW::Mechanize';
 
 use Test::Mojo;
 
-our $VERSION = '0.0.15';
+our $VERSION = '0.0.16';
 
 our $APP_CLASS;
 my $Test = Test::Builder->new();
@@ -196,7 +196,7 @@ sub _do_mojo_request {
 
     # Client
     my $client = $t->ua;
-    $client->app($t->app);
+    $client->server->app($t->app);
 
     my $method = lc($request->method());
 
